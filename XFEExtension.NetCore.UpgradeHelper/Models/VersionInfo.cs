@@ -1,6 +1,4 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-
-namespace XFEExtension.NetCore.UpgradeHelper.Models;
+﻿namespace XFEExtension.NetCore.UpgradeHelper.Models;
 
 /// <summary>
 /// 版本信息
