@@ -32,6 +32,7 @@ public class Upgrader(string serverIp)
         return new()
         {
             IsLatest = bool.Parse(jsonNode["isLatest"]),
+            LatestVersion = jsonNode["latestVersion"],
             ReleaseNotes = Encoding.UTF8.GetString(Convert.FromBase64String(jsonNode["releaseNotes"])),
             DownloadUrl = jsonNode["downloadUrl"]
         };
@@ -51,6 +52,7 @@ public class Upgrader(string serverIp)
         return new()
         {
             IsLatest = bool.Parse(jsonNode["isLatest"]),
+            LatestVersion = jsonNode["latestVersion"],
             VersionInfo = JsonSerializer.Deserialize<List<VersionInfo>>(Encoding.UTF8.GetString(Convert.FromBase64String(jsonNode["releaseNotes"])), jsonSerializerOptions) ?? [],
             DownloadUrl = jsonNode["downloadUrl"]
         };

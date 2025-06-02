@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFEExtension.NetCore.UpgradeHelper", "XFEExtension.NetCore.UpgradeHelper\XFEExtension.NetCore.UpgradeHelper.csproj", "{C1676EEE-A182-4165-B4D8-00FFEF0ED0AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFEExtension.NetCore.UpgradeHelper.Test", "XFEExtension.NetCore.UpgradeHelper.Test\XFEExtension.NetCore.UpgradeHelper.Test.csproj", "{1F31205A-6819-4150-B510-9E1D96D6FFC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C1676EEE-A182-4165-B4D8-00FFEF0ED0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1676EEE-A182-4165-B4D8-00FFEF0ED0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1676EEE-A182-4165-B4D8-00FFEF0ED0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F31205A-6819-4150-B510-9E1D96D6FFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F31205A-6819-4150-B510-9E1D96D6FFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F31205A-6819-4150-B510-9E1D96D6FFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F31205A-6819-4150-B510-9E1D96D6FFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
