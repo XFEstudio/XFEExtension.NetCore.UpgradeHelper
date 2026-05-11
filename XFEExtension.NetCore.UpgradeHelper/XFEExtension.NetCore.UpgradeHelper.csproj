@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>1.0.1</Version>
+    <Version>2.0.0</Version>
     <Nullable>enable</Nullable>
     <PackageIcon>logoIcon.png</PackageIcon>
     <Title>XFEExtension.NetCore.UpgradeHelper</Title>
