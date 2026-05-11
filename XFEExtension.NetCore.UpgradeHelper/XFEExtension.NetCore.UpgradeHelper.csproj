@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Version>1.0.1</Version>
     <Nullable>enable</Nullable>
@@ -13,7 +13,9 @@
     <NeutralLanguage>zh-CN</NeutralLanguage>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>
-      添加更详细的更新信息
+      升级至 net10.0 并更新依赖包版本
+
+      将项目目标框架从 net8.0 升级为 net10.0，同时将 XFEExtension.NetCore 包从 3.3.1 升级到 4.2.3，XFEExtension.NetCore.XUnit 包从 2.0.4 升级到 3.0.0，以获得新特性和更好的兼容性。
     </PackageReleaseNotes>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -37,7 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="XFEExtension.NetCore" Version="3.3.1" />
+    <PackageReference Include="XFEExtension.NetCore" Version="4.2.3" />
   </ItemGroup>
 
 </Project>
